@@ -24,5 +24,5 @@ def printer(attendees)
   my_name.each do |name|
     puts name.chomp
   end
-  puts assign_rooms(attendees)
+  # puts assign_rooms(attendees)
 end
