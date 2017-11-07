@@ -22,7 +22,7 @@ end
 def printer(attendees)
   my_name = badge_maker(attendees)
   my_name.each do |name|
-    puts my_name.chomp
+    puts name.chomp
   end
   puts assign_rooms(attendees)
 end
