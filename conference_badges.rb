@@ -20,6 +20,9 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-  puts badge_maker(attendees)
+  one_name = badge_maker(attendees).each do |name|
+    name.chomp
+  end
+  puts one_name
   puts assign_rooms(attendees)
 end
