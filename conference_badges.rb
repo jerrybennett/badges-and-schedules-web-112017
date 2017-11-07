@@ -24,6 +24,7 @@ def printer(attendees)
   each_name.each do |name|
     puts name.chomp
   end
+  
   room_assignments = assign_rooms(attendees)
   room_assignments.each do |room|
     puts room.chomp
